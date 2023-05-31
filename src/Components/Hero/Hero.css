@@ -3,7 +3,12 @@
     justify-content: space-between;
 }
 
-.ledt-h {
+.left-h {
     padding: 2rem;
-    padding-top: 1.2rem;
+    padding-top: 1.5rem;
+    flex:3
+}
+
+.right-h {
+    flex:1
 }

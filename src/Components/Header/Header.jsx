@@ -7,12 +7,12 @@ const Header = () => {
     <div className='header'>
 
         <img src={Logo} alt="" className='logo'/>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+        <ul className='header-menu'>
+            <li>Home</li>
+            <li>Programs</li>
+            <li>Why us</li>
+            <li>Plans</li>
+            <li>Testimonials</li>
         </ul>
     </div>
   )

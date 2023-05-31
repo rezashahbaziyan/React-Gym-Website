@@ -2,3 +2,8 @@
     display: flex;
     justify-content: space-between;
 }
+
+.ledt-h {
+    padding: 2rem;
+    padding-top: 1.2rem;
+}

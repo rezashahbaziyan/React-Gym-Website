@@ -7,6 +7,7 @@ const Hero = () => {
         <div className="left-h">
             
             <Header/>
+            <div className="the-best-ad"></div>
         </div>
         <div className="right-h">Right Side</div>
     </div>

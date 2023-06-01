@@ -27,6 +27,10 @@
     justify-content: flex-start;
 }
 
+.the-best-ad>span {
+    z-index: 2;
+}
+
 .the-best-ad>div {
     position: absolute;
     background-color: var(--orange);

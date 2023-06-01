@@ -6,9 +6,18 @@
 .left-h {
     padding: 2rem;
     padding-top: 1.5rem;
-    flex:3
+    flex: 3
 }
 
 .right-h {
-    flex:1
+    flex: 1
+}
+
+.the-best-ad {
+    margin-top: 4rem;
+    background-color: #363d42;
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 20px 13px;
+    text-transform: uppercase;
 }

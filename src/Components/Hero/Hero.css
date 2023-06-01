@@ -24,5 +24,14 @@
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
+}
+
+.the-best-ad>div {
+    position: absolute;
+    background-color: var(--orange);
+    width: 5.4rem;
+    height: 80%;
+    left: 8px;
+    border-radius: 3rem;
 }

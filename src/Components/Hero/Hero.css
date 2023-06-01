@@ -20,4 +20,9 @@
     width: fit-content;
     padding: 20px 13px;
     text-transform: uppercase;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
 }

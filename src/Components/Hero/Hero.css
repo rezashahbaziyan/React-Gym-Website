@@ -10,7 +10,8 @@
 }
 
 .right-h {
-    flex: 1
+    flex: 1;
+    position: relative;
 }
 
 .the-best-ad {
@@ -96,4 +97,11 @@
     background-color: transparent;
     width: 8rem;
     border: 2px solid var(--orange);
+}
+
+.right-h>btn {
+    position: absolute;
+    right: 3rem;
+    top: 3rem;
+    color: black;
 }

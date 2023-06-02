@@ -28,6 +28,21 @@ const Hero = () => {
                 </span>
               </div>
             </div>
+            {/* figures */}
+            <div className="figures">
+              <div>
+                <span></span>
+                <span></span>
+              </div>
+              <div>
+                <span></span>
+                <span></span>
+              </div>
+              <div>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
         </div>
         <div className="right-h">Right Side</div>
     </div>

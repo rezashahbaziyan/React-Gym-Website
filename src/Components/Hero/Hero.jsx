@@ -44,8 +44,10 @@ const Hero = () => {
               </div>
             </div>
             {/* hero buttons */}
+            <div className="hero-buttons">
             <div className="btn">Get Started</div>
             <div className="btn">Learn More</div>
+            </div>
         </div>
         <div className="right-h">Right Side</div>
     </div>

@@ -21,6 +21,12 @@ const Hero = () => {
               <div>
                 <span>Ideal body</span>
               </div>
+              <div>
+                <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quos expedita doloremque quo.
+                </span>
+              </div>
             </div>
         </div>
         <div className="right-h">Right Side</div>

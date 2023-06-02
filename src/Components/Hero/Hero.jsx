@@ -1,6 +1,10 @@
 import React from 'react';
 import "./Hero.css";
 import Header from '../Header/Header';
+import hero_image from "../../assets/hero_image.png"
+import hero_image_back from "../../assets/hero_image_back.png"
+import hHeart from "../../assets/heart.png"
+import Calories from "../../assets/calories.png"
 const Hero = () => {
   return (
     <div className="hero">

@@ -31,16 +31,16 @@ const Hero = () => {
             {/* figures */}
             <div className="figures">
               <div>
-                <span></span>
-                <span></span>
+                <span>+140</span>
+                <span>expert coachs</span>
               </div>
               <div>
-                <span></span>
-                <span></span>
+                <span>+978</span>
+                <span>members</span>
               </div>
               <div>
-                <span></span>
-                <span></span>
+                <span>+50</span>
+                <span>fitness programs</span>
               </div>
             </div>
         </div>

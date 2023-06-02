@@ -3,7 +3,7 @@ import "./Hero.css";
 import Header from '../Header/Header';
 import hero_image from "../../assets/hero_image.png"
 import hero_image_back from "../../assets/hero_image_back.png"
-import hHeart from "../../assets/heart.png"
+import Heart from "../../assets/heart.png"
 import Calories from "../../assets/calories.png"
 const Hero = () => {
   return (
@@ -53,7 +53,14 @@ const Hero = () => {
             <div className="btn">Learn More</div>
             </div>
         </div>
-        <div className="right-h">Right Side</div>
+        <div className="right-h">
+          <button className='btn'>Join Now</button>
+
+          <div className="heart-rate">
+            <img src={Heart} alt="" />
+            <span>Heart Rate</span><span>116 bpm</span>
+          </div>
+        </div>
     </div>
   )
 }

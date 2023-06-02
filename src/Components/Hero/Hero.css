@@ -129,3 +129,10 @@
     color: white;
     font-size: 1.5rem;
 }
+
+.hero-image {
+    position: absolute;
+    top: 10rem;
+    right: 8rem;
+    width: 23rem;
+}

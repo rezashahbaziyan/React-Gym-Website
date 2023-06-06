@@ -1,5 +1,6 @@
 import './App.css';
 import Hero from './Components/Hero/Hero';
+import Reasons from './Components/Reasons/Reasons';
 import Programs from './Components/programs/Programs';
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       {/* <span style={{color: 'white'}}></span> */}
       <Hero />
       <Programs />
+      <Reasons />
     </div>
   );
 }

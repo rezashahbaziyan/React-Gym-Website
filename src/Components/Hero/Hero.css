@@ -171,3 +171,7 @@
 .calories>img {
     width: 3rem;
 }
+
+.calories>div>:nth-child(1) {
+    color: var(--gray);
+}

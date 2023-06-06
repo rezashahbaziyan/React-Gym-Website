@@ -24,4 +24,9 @@
 .category {
     display: flex;
     flex-direction: column;
+    background-color: gray;
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+    justify-content: space-between;
 }

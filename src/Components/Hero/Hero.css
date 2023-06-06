@@ -167,3 +167,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+.calories>img {
+    width: 3rem;
+}

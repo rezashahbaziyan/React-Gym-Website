@@ -15,3 +15,13 @@
     text-transform: uppercase;
     font-style: italic;
 }
+
+.program-categories {
+    display: flex;
+    gap: 1rem;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+}

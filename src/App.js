@@ -2,6 +2,7 @@ import './App.css';
 import Hero from './Components/Hero/Hero';
 import Plans from './Components/Plans/Plans';
 import Reasons from './Components/Reasons/Reasons';
+import Testimonials from './Components/Testimonials/Testimonials';
 import Programs from './Components/programs/Programs';
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Programs />
       <Reasons />
       <Plans />
+      <Testimonials />
     </div>
   );
 }

@@ -15,6 +15,12 @@ const Testimonials = () => {
             <span>
                 {testimonialsData[selected].review}
             </span>
+            <span>
+                <span>
+                    {testimonialsData[selected].name}
+                </span> {" "}
+                - {testimonialsData[selected].status}
+            </span>
         </div>
         <div className="right-t"></div>
     </div>

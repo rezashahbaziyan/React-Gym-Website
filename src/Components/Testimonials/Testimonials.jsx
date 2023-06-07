@@ -32,11 +32,18 @@ const Testimonials = () => {
             <div className="arrows">
                 <img 
                 onClick={()=>{
-                    selected===0?setSelected(tLength-1):
-                    setSelected((prev)=>prev-1)
+                    selected===0
+                    ? setSelected(tLength-1)
+                    : setSelected((prev)=>prev-1)
                 }}
                 src={LeftArrow} alt="" />
-                <img src={RightArrow} alt="" />
+                <img 
+                onClick={()=>{
+                    selected === tLength - 1
+                    ? setSelected(0)
+                    : setSelected((prev) => prev + 1);
+                }}
+                src={RightArrow} alt="" />
             </div>
         </div>
     </div>

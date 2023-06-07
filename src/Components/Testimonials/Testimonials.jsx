@@ -16,7 +16,7 @@ const Testimonials = () => {
                 {testimonialsData[selected].review}
             </span>
             <span>
-                <span>
+                <span style={{color:'var(--orange)'}}>
                     {testimonialsData[selected].name}
                 </span> {" "}
                 - {testimonialsData[selected].status}

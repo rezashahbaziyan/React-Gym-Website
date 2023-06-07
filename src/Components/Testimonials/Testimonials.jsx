@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import "./Testimonials.css";
 import {TestimonialsData, testimonialsData} from "../../data/testimonialsData";
+import LeftArrow from '../../assets/leftArrow.png';
+import RightArrow from '../../assets/rightArrow.png';
 
 const Testimonials = () => {
   
@@ -22,7 +24,14 @@ const Testimonials = () => {
                 - {testimonialsData[selected].status}
             </span>
         </div>
-        <div className="right-t"></div>
+        <div className="right-t">
+            <img src={testimonialsData[selected].image} alt="" />
+
+            <div className="arrows">
+                <img src={LeftArrow} alt="" />
+                <img src={RightArrow} alt="" />
+            </div>
+        </div>
     </div>
   )
 }

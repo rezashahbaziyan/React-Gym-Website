@@ -19,6 +19,7 @@ const Join = () => {
 
             <form action="" className='email-container'>
                 <input type="email" name='user-email' placeholder='Entre your Email address' />
+                <button className='btn btn-j'>Join Now</button>
             </form>
         </div>
     </div>

@@ -5,6 +5,7 @@ const Join = () => {
   return (
     <div className="Join" id='join-us'>
         <div className="left-j">
+            <hr />
             <div>
                 <span className='stroke-text'>Ready to</span>
                 <span> level up</span>

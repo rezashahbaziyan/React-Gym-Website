@@ -65,12 +65,17 @@ const Hero = () => {
         </div>
         <div className="right-h">
           <button className='btn'>Join Now</button>
-
-          <div className="heart-rate">
-            <img src={Heart} alt="" />
-            <span>Heart Rate</span>
-            <span>116 bpm</span>
-          </div>
+          
+          <motion.div
+              initial={{right:"-1rem"}}
+              whileInView={{right:'4rem'}}
+              transition={transition}
+              className='heart-rate'>
+              <img src={Heart} alt="" />
+              <span>Heart Rate</span>
+              <span>116 bpm</span>
+          </motion.div>
+          
           {/* hero images */}
           <img src={hero_image} alt="" className='hero-image'/>
           <img src={hero_image_back} alt="" className='hero-image-back'/>

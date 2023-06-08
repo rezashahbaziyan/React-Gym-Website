@@ -6,12 +6,12 @@ const Join = () => {
     <div className="Join" id='join-us'>
         <div className="left-j">
             <div>
-                <span></span>
-                <span></span>
+                <span className='stroke-text'>Ready to</span>
+                <span> level up</span>
             </div>
             <div>
-                <span></span>
-                <span></span>
+                <span>your body</span>
+                <span className='stroke-text'> whit us</span>
             </div>
         </div>
     </div>

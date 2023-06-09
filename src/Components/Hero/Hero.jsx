@@ -1,10 +1,11 @@
 import React from 'react';
 import "./Hero.css";
 import Header from '../Header/Header';
-import hero_image from "../../assets/hero_image.png"
-import hero_image_back from "../../assets/hero_image_back.png"
-import Heart from "../../assets/heart.png"
-import Calories from "../../assets/calories.png"
+import hero_image from "../../assets/hero_image.png";
+import hero_image_back from "../../assets/hero_image_back.png";
+import Heart from "../../assets/heart.png";
+import Calories from "../../assets/calories.png";
+import CountUp from "react-countup"
 
 import {motion} from 'framer-motion';
 const Hero = () => {
@@ -45,15 +46,21 @@ const Hero = () => {
             {/* figures */}
             <div className="figures">
               <div>
-                <span>+140</span>
+                <span> + 
+                <CountUp start={100} end={140} duration={4}/>
+                </span>
                 <span>expert coachs</span>
               </div>
               <div>
-                <span>+978</span>
+                <span>+
+                <CountUp start={920} end={978} duration={4}/>
+                </span>
                 <span>members</span>
               </div>
               <div>
-                <span>+50</span>
+                <span>+
+                <CountUp start={0} end={50} duration={4}/>
+                </span>
                 <span>fitness programs</span>
               </div>
             </div>

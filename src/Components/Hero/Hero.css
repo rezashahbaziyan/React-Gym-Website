@@ -10,6 +10,10 @@
     flex: 3;
 }
 
+.left-h>div {
+    margin: 1rem 0;
+}
+
 .right-h {
     flex: 1;
     position: relative;

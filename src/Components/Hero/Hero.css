@@ -227,4 +227,24 @@
     .figures>div>span:nth-child(2) {
         font-size: small;
     }
+
+    .right-h {
+        position: relative;
+        background: none;
+    }
+
+    .heart-rate {
+        left: 1rem;
+        top: 2rem;
+    }
+
+    .calories {
+        position: relative;
+        top: 5rem;
+        left: 2rem;
+    }
+
+    .calories>img {
+        width: 2rem;
+    }
 }

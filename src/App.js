@@ -7,9 +7,6 @@ import Reasons from './Components/Reasons/Reasons';
 import Testimonials from './Components/Testimonials/Testimonials';
 import Programs from './Components/programs/Programs';
 
-import './App.css';
-import Footer from './Components/Footer/Footer';
-
 function App() {ion App() {ion App() {
   return (
     <div className="App">

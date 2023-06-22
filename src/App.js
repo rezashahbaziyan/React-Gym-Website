@@ -9,10 +9,8 @@ import Programs from './Components/programs/Programs';
 
 import './App.css';
 import Footer from './Components/Footer/Footer';
-import Hero from './Components/Hero/Hero';
-import Join from './Components/Join/Join';
- 
-function App() {ion App() {
+
+function App() {ion App() {ion App() {
   return (
     <div className="App">
       {/* <span style={{color: 'white'}}></span> */}
